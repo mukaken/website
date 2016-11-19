@@ -1,15 +1,15 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="ja">
 
 <head>
-    <title>Laravel - The PHP framework for web artisans.</title>
+    <title>Laravel - ウェブ職人のためのPHPフレームワーク</title>
 
     <!-- meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
     <meta name="author" content="iKreativ">
-    <meta name="description" content="Laravel - The PHP framework for web artisans.">
+    <meta name="description" content="Laravel - ウェブ職人のためのPHPフレームワーク">
     <meta name="keywords" content="laravel, php, framework, web, artisans, taylor otwell">
 
     <!-- favicon -->
@@ -43,14 +43,16 @@
     <!--[if lt IE 8]><script src="assets/js/ie_font.js"></script><![endif]-->
 
     <!-- asynchronous google analytics. change UA-XXXXX-X to your site's ID -->
-    <script>
-        var _gaq=[['_setAccount','UA-23865777-1'],['_trackPageview']];
-        (function(d,t){
-    		var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        	s.parentNode.insertBefore(g,s)
-    	}(document,'script'));
-    </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2725037-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body id="index" class="page home">
